@@ -1,3 +1,5 @@
+
+<!--
 # ToDo
 
 * Integrate parts of https://github.com/ga-wdi-lessons/agile
@@ -12,17 +14,19 @@
 * Agile is dead? (not an excuse to be unplanned) continuous integration is another movement inspired by agile.
 * Discuss point system
 
+-->
+
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
-# Development Best Practices
+# Software Development Best Practices
 
-## Why is this important?
+### Why is this important?
 <!-- framing the "why" in big-picture/real world examples -->
 *This workshop is important because:*
 
 Well-planned projects with flexible processes are more enjoyable to work on and turn out better. In the following workshop we will discuss how to plan appropriately and follow some best practices.
 
-## What are the objectives?
+### What are the objectives?
 <!-- specific/measurable goal for students to achieve -->
 *After this workshop, developers will be able to:*
 
@@ -30,7 +34,7 @@ Well-planned projects with flexible processes are more enjoyable to work on and 
 - Define features as user stories
 - Design mockups to inform the UI/UX
 
-## Where should we be now?
+### Where should we be now?
 <!-- call out the skills that are prerequisites -->
 *Before this workshop, developers should already be able to:*
 
@@ -99,87 +103,109 @@ its behavior accordingly.
 
 ## Best practices
 
-###Satisfy the Customer
+####Satisfy the Customer
 
 * **User stories** define the features an application will provide in a simple and concise way.
 
-* **Wireframes** define the structural UI of the application.
+* **Wireframes** define the user interface of the application.
 
-###Deliver Working Software
+####Deliver Working Software
 
 * **Pair programming** is development technique in which two programmers work on a specific problem together.
 
 * **Test-driven development** improves code design and quality.
 
-##Work Together
+###Work Together
 
-* **Scrum meetings** are short meetings used to plan, review, and increase accountability and clarity across a team. Examples include sprint planning, daily scrum, sprint review and retrospective, and **STAND UPS**.
+* **Scrum meetings** are short meetings used to plan, review, and increase accountability and clarity across a team.
 
-* **Retrospectives**
+* **Retrospectives** a period for reflection at the end of each sprint.
 
 ## User Stories
 
-A user *(specified type optional)* can [GOAL], *so that [PURPOSE]*
+###How do I know what the client wants?
+
+When you meet with the client translate all the features that you discuss into **user stories** following the format:
+
+**A user *(specified type optional)* can [GOAL], *so that [PURPOSE]***
 
 For example:
 
 - _A user can read reviews of a book (so that they are better informed when making a purchase)._
 - _An admin can update the inventory of a book so that the buyers know what is available._
 
-* Add sprints, trello
+###How can I make an accurate time and budget quote on a project?
 
-* velocity tracking
+As a user story complexity increases linearly, its time to complete it will increase geometrically. As a result, when assigning weighing each user story's relative complexity assign it a fibonacci number that corresponds to the relative time it will require. This is called the **point system** and is a great way to budget time and money.
 
-> Individually, create four user stories that apply to the functionality for your favorite app or website, following the format above and assign each a specific point value.
+**[1, 2, 3, 5, 8, 13, 21]**
+
+corresponds to:
+
+**[easiest, easier, easy, moderate, hard, harder, hardest]**
+
+*Note: If something is every bigger than 21 points, consider breaking it down into more user stories.*
+
+Once all the user stories are assigned points, it is possible to start estimating how many points can be completed in a given period of time. A **sprint** is a period of predefined time, typically 1-2 weeks, during which teams aim to complete a set of user stories. The team initially estimates how many points is realistic to accomplish during the a sprint. Once the team completes a sprint, they can measure the rate of points completed in a given of time, or their **velocity**. Knowing the current and average velocities of the team, allows for more accurate projections into the future. 
+
+A collection of user stories will contain an overall point score.
+
+###What tools should I use to do this?
+
+Head to [Trello](https://trello.com), make a new board, and create three lists: "To Do", "Doing", and "Done".
+
+<figure>
+  <img src="imgs/user-stories.png" alt="Kanban-style user stories">
+  <br>
+  <figcaption>Kanban-style user stories</figcaption>
+</figure>
+
+For each user story it is possible to break it down into sub tasks.
+
+<figure>
+  <img src="imgs/story-tasks.png" alt="user story tasks">
+  <br>
+  <figcaption>A user story's tasks</figcaption>
+</figure>
+
+> Challenge: Write an example user story either for tick-tack-toe for an original game you are planning to build.
 
 ## Wireframes
 
-_A website wireframe, also known as a **page schematic** or **screen blueprint**, is a visual guide that represents the **skeletal framework** of a **website**._ - Wikipedia
+Wireframes illustrate how the user **navigates** to and **interfaces** with **information** presented to them.
 
-[...continued...] **Wireframes** are created for the purpose of arranging elements to best accomplish a particular purpose. The purpose is usually being informed by a business objective and a creative idea. The wireframe depicts the **page layout** or **arrangement** of the website’s **content**, including **interface elements** and **navigational systems**, and how they work together. The wireframe usually lacks typographic style, color, or graphics, since the main focus lies in **functionality**, behavior, and priority of content.
+Having user stories will better inform wireframes, while having wireframes will help further refine the user stories. They are very complementary in this way.
 
-The key points to get across when creating a wireframe are:
+Can the user intuitively **navigate** through the experience and **interface** with the **information** presented to them?
 
-* Information design
-* Navigation design
-* Interface design
+<figure>
+  <img src="http://3.bp.blogspot.com/-8e_J8hkX_kM/TbSz0jywljI/AAAAAAAAAY4/Nei-hnfPGaI/s1600/Balsamiq+myTube+example.jpg" alt="example wireframe">
+  <br>
+  <figcaption>An example wireframe</figcaption>
+</figure>
 
-#### An example of a wireframe
-
-Let's look at the difference between YouTube's page for a particular video and how a wireframe compares:
-
-<p style="text-align:center">
-<img src="http://3.bp.blogspot.com/-8e_J8hkX_kM/TbSz0jywljI/AAAAAAAAAY4/Nei-hnfPGaI/s1600/Balsamiq+myTube+example.jpg">
-</p>
-
-<p style="margin:auto; height:400px; width:600px">
-<img src="https://make.wordpress.org/support/wp-content/blogs.dir/21/files/2012/10/embed-youtube-page.jpg">
-</p>
-
-Wireframes focus on:
-
-* The range of functions available
-* The relative priorities of the information and functions
-* The rules for displaying certain kinds of information
-* The effect of different scenarios on the display
-
-#### Useful wireframing tools
-
-* [draw.io](http://www.draw.io)
-* [balsamiq.com](http://www.balsamiq.com)
-* [moqups.com](http://www.moqups.com)
-* [framebox.org](http://www.framebox.org)
+> Challenge: Wire frame the new page for [Tesla's Model 3](https://www.teslamotors.com/model3)
 
 ##Pair Programming
 
-One, the driver, writes code while the other, the observer, pointer or navigator, reviews each line of code as it is typed in. The two programmers switch roles frequently.
+The practice of pair programming is cited to **improve code quality** through an increase in communication, **facilitate team cohesion** through collective code ownership, **improve long-term velocity** through a reduction in errors made, in addition to other benefits. 
 
-Pair programming is a proven way to get a team to knowledge-share while producing higher-quality, more maintable code.
+One programmer, the driver, writes code while the other, the navigator, reviews each line of code as it is typed in. The two programmers switch roles frequently.
 
+##TDD
 
-## Conclusion
+Test driven development will improve the design and quality of the code written. It follows the cycle:
 
-- Describe agile development.
-- Compare agile development to waterfall development.
-- What are users stories and why are they used?
-- What are wireframes and why are they used?
+![tdd-flowchart](https://raw.githubusercontent.com/sf-wdi-26/modules/master/w08/d02/m3-testing-w-jasmine/img/tdd-flowchart.png)
+
+>Note: pair programming and TDD can work well together in a [ping pong pattern](http://c2.com/cgi/wiki?PairProgrammingPingPongPattern).
+
+##Scrum
+
+##Retrospective
+
+##Closing Thoughts
+
+- How do user stories help manage a client/boss?
+- Name two process a team can adhere to in order to improve the quality of the code produced.
+- Name one way a team can better self-organize and improve to become more effective.
