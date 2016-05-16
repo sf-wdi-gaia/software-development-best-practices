@@ -14,7 +14,8 @@ Well-planned projects with flexible processes are more enjoyable to work on and 
 
 - Compare and contrast several development methodologies
 - Define features as user stories
-- Design mockups to inform the UI/UX
+- Inform a UI with mockups
+- Conduct a scrum
 
 ### Where should we be now?
 <!-- call out the skills that are prerequisites -->
