@@ -201,35 +201,40 @@ Similar to rugby, a **scrum** is when a team quickly groups up in an effort to "
 
 ##Retrospective
 
-At the end of each sprint a team will conduct a **retrospective** in an effort to "become more effective". There are [numerous formats](http://retrospectivewiki.org/index.php?title=Retrospective_Plans) for which to conduct a retrospective; the six hats is a popular one.
-
+At the end of each sprint a team will conduct a **retrospective** in an effort to "become more effective". There are [numerous formats](http://retrospectivewiki.org/index.php?title=Retrospective_Plans) for which to conduct a retrospective; the [six hats](http://retrospectivewiki.org/index.php?title=6_Thinking_Hats_Retrospective) is a popular one.
 
 ###The Six Hats
 
-**Blue Hat (5 minutes)**
-Use the blue hat to discuss the objectives for the session and write the output on the whiteboard.
+**Blue Hat**
 
-**White Hat (10 minutes)**
-Participants raise and discuss anything from the last iteration which can be said to be a fact or information. Hunches and feelings and any discussion of reasons or other non information based output should be left for the appropriate hat.
+Use the blue hat to discuss the **objectives** for the session and write the output on the whiteboard.
 
-**Yellow Hat (10 minutes)**
-Participants can only talk about the good things that happened in the last iteration.
+**White Hat**
 
-**Black Hat (10 minutes)**
-Participants can only talk about the bad things that happened, any negative criticism they have or worst case scenarios they can think of.
+Participants raise and discuss anything from the last iteration which can be said to be a **fact or information**. Hunches and feelings and any discussion of reasons or other non information based output should be left for the appropriate hat.
 
-**Green Hat (10 minutes)**
-The discussion moves on to any ideas people have about solving problems or things that may add more value to the business or help in any way. Outside of the box helicopter view blue sky thinking is encouraged.
+**Yellow Hat**
 
-**Red Hat (5 Minutes)**
-Give the participants a short period of time in which they can come up to the board and write down 2 emotive statements each. These could be the issues that have stood out for them the most or an idea for solving a problem. These statements should be instinctive which is why you will give them very little time to do this.
+Participants can only talk about the **good things** that happened in the last iteration.
+
+**Black Hat**
+
+Participants can only talk about the **bad things** that happened, any negative criticism they have or worst case scenarios they can think of.
+
+**Green Hat**
+
+The discussion moves on to any **ideas** people have about solving problems or things that may add more value to the business or help in any way. Outside of the box helicopter view blue sky thinking is encouraged.
+
+**Red Hat**
+
+Give the participants a short period of time in which they can come up to the board and write down 2 **emotive statements** each. These could be the issues that have stood out for them the most or an idea for solving a problem. These statements should be instinctive which is why you will give them very little time to do this.
 
 ##Closing Thoughts
 
-- How do user stories help manage a client/boss?
-- In an organization that uses user stories and tdd how a client's feature request get translated into working code?
+- How can writting user stories help manage our clients from a time and cost perspective?
 - Name two process a team can adhere to in order to improve the quality of the code produced.
-- Name one way a team can better self-organize and improve to become more effective.
+- Assuming the use of TDD, how would feature request get translated into working code?
+- What's one thing a team can do to better self-organize and be more effective.
 
 ##Related Resources
 
