@@ -1,21 +1,3 @@
-
-<!--
-# ToDo
-
-* Integrate parts of https://github.com/ga-wdi-lessons/agile
-* Integrate Trello example
-* Update formatting
-* Integrate more interactive activities
-* Discuss extreme programming
-* expand TDD section
-* Reorder sections/integrate challenges throughout
-* me more specific about user stories challenge
-* Discuss information chain: client -> user story -> test -> code 
-* Agile is dead? (not an excuse to be unplanned) continuous integration is another movement inspired by agile.
-* Discuss point system
-
--->
-
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
 # Software Development Best Practices
@@ -168,7 +150,7 @@ For each user story it is possible to break it down into sub tasks.
   <figcaption>A user story's tasks</figcaption>
 </figure>
 
-> Challenge: Write an example user story either for tick-tack-toe for an original game you are planning to build.
+> Challenge: Write an example user story either for tic-tack-toe or for an original game you are planning to build.
 
 ## Wireframes
 
@@ -188,24 +170,66 @@ Can the user intuitively **navigate** through the experience and **interface** w
 
 ##Pair Programming
 
-The practice of pair programming is cited to **improve code quality** through an increase in communication, **facilitate team cohesion** through collective code ownership, **improve long-term velocity** through a reduction in errors made, in addition to other benefits. 
+The practice of pair programming is cited to: **improve code quality** through an increase in communication, **facilitate team cohesion** through collective code ownership, **improve long-term velocity** through a reduction in errors made, in addition to other benefits! 
 
 One programmer, the driver, writes code while the other, the navigator, reviews each line of code as it is typed in. The two programmers switch roles frequently.
+
+![pair programming](http://i.imgur.com/cdiZYib.jpg)
+
+Checkout [how Atlassian does it](https://www.youtube.com/watch?v=dYBjVTMUQY0)
 
 ##TDD
 
 Test driven development will improve the design and quality of the code written. It follows the cycle:
 
-![tdd-flowchart](https://raw.githubusercontent.com/sf-wdi-26/modules/master/w08/d02/m3-testing-w-jasmine/img/tdd-flowchart.png)
+![tdd flowchart](https://raw.githubusercontent.com/sf-wdi-26/modules/master/w08/d02/m3-testing-w-jasmine/img/tdd-flowchart.png)
 
->Note: pair programming and TDD can work well together in a [ping pong pattern](http://c2.com/cgi/wiki?PairProgrammingPingPongPattern).
+*Note: pair programming and TDD can work well together in a [ping pong pattern](http://c2.com/cgi/wiki?PairProgrammingPingPongPattern).*
 
 ##Scrum
 
+Similar to rugby, a **scrum** is when a team quickly groups up in an effort to "self-organize". It is recommended to keep the scrum as *short as possible*. Agree on a duration of about 5-15 minutes. Scrums are typically conducted at the very beginning of every day additionally as needed (i.e. afternoon and the end of the day). A standard format is to go around in a circle and for each person to answer the following questions:
+
+* What user stories did you complete yesterday?
+* What user stories are you working on today?
+* Do you have any blocks?
+
+*Note: a block is anything that has completely inhibited you from moving forward.*
+
+> Conduct a scrum at your tables
+
 ##Retrospective
+
+At the end of each sprint a team will conduct a **retrospective** in an effort to "become more effective". There are [numerous formats](http://retrospectivewiki.org/index.php?title=Retrospective_Plans) for which to conduct a retrospective; the six hats is a popular one.
+
+
+###The Six Hats
+
+**Blue Hat (5 minutes)**
+Use the blue hat to discuss the objectives for the session and write the output on the whiteboard.
+
+**White Hat (10 minutes)**
+Participants raise and discuss anything from the last iteration which can be said to be a fact or information. Hunches and feelings and any discussion of reasons or other non information based output should be left for the appropriate hat.
+
+**Yellow Hat (10 minutes)**
+Participants can only talk about the good things that happened in the last iteration.
+
+**Black Hat (10 minutes)**
+Participants can only talk about the bad things that happened, any negative criticism they have or worst case scenarios they can think of.
+
+**Green Hat (10 minutes)**
+The discussion moves on to any ideas people have about solving problems or things that may add more value to the business or help in any way. Outside of the box helicopter view blue sky thinking is encouraged.
+
+**Red Hat (5 Minutes)**
+Give the participants a short period of time in which they can come up to the board and write down 2 emotive statements each. These could be the issues that have stood out for them the most or an idea for solving a problem. These statements should be instinctive which is why you will give them very little time to do this.
 
 ##Closing Thoughts
 
 - How do user stories help manage a client/boss?
+- In an organization that uses user stories and tdd how a client's feature request get translated into working code?
 - Name two process a team can adhere to in order to improve the quality of the code produced.
 - Name one way a team can better self-organize and improve to become more effective.
+
+##Related Resources
+
+* [Building an MVP](https://www.youtube.com/watch?v=1FoCbbbcYT8)
