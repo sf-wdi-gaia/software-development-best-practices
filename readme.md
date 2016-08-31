@@ -29,10 +29,6 @@ Well-planned projects with flexible processes are more enjoyable to work on and 
 
 Waterfall is a good example of a linear methodology in which the project's progress steady flows down from one team to another. It's "easy" manage due to the rigidity of the model.
 
-###Consequences...
-
-...
-
 > What tends to happen to new projects in waterfall organizations?
 
 ## Agile Methodology
@@ -83,6 +79,9 @@ emerge from **self-organizing teams**.
 to become more effective**, then tunes and adjusts 
 its behavior accordingly.
 
+## Pair & Share
+
+Discuss with a partner a personal experience you had working in either of these work environments. What were the benefits or pitfalls of this experience? Be prepared to share with the rest of the class.
 
 ## Best practices
 
