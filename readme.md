@@ -202,7 +202,7 @@ Similar to rugby, a **scrum** is when a team quickly groups up in an effort to "
 
 At the end of each sprint a team will conduct a **retrospective** in an effort to "become more effective". There are [numerous formats](http://retrospectivewiki.org/index.php?title=Retrospective_Plans) for which to conduct a retrospective; the [six hats](http://retrospectivewiki.org/index.php?title=6_Thinking_Hats_Retrospective) is a popular one.
 
-###The Six Hats
+###Example Retrospective: The Six Hats
 
 **Blue Hat**
 
