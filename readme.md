@@ -97,7 +97,7 @@ Discuss with a partner a personal experience you had working in either of these 
 
 * **Test-driven development** improves code design and quality.
 
-###Work Together
+####Work Together
 
 * **Scrum meetings** are short meetings used to plan, review, and increase accountability and clarity across a team.
 
