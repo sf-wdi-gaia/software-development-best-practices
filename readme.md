@@ -29,10 +29,6 @@ Well-planned projects with flexible processes are more enjoyable to work on and 
 
 Waterfall is a good example of a linear methodology in which the project's progress steady flows down from one team to another. It's "easy" manage due to the rigidity of the model.
 
-###Consequences...
-
-...
-
 > What tends to happen to new projects in waterfall organizations?
 
 ## Agile Methodology
@@ -83,6 +79,9 @@ emerge from **self-organizing teams**.
 to become more effective**, then tunes and adjusts 
 its behavior accordingly.
 
+## Pair & Share
+
+Discuss with a partner a personal experience you had working in either of these work environments. What were the benefits or pitfalls of this experience? Be prepared to share with the rest of the class.
 
 ## Best practices
 
@@ -98,7 +97,7 @@ its behavior accordingly.
 
 * **Test-driven development** improves code design and quality.
 
-###Work Together
+####Work Together
 
 * **Scrum meetings** are short meetings used to plan, review, and increase accountability and clarity across a team.
 
@@ -203,7 +202,7 @@ Similar to rugby, a **scrum** is when a team quickly groups up in an effort to "
 
 At the end of each sprint a team will conduct a **retrospective** in an effort to "become more effective". There are [numerous formats](http://retrospectivewiki.org/index.php?title=Retrospective_Plans) for which to conduct a retrospective; the [six hats](http://retrospectivewiki.org/index.php?title=6_Thinking_Hats_Retrospective) is a popular one.
 
-###The Six Hats
+###Example Retrospective: The Six Hats
 
 **Blue Hat**
 
